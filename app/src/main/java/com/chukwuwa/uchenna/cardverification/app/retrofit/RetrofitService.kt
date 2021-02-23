@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit
 
 
 private val sLogLevel =
-    if (BuildConfig.DEBUG) Level.BODY else Level.NONE
+    Level.BODY
 
 
 val interceptor = HttpLoggingInterceptor()
